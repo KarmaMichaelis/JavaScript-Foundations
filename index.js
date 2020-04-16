@@ -25,10 +25,13 @@ Create a variable called `monthlyInterestRate` and give it the value of interest
 
 Create another variable called `periods` and give it the value of years*12.
 */
-intrestRate=0.05
+intrestRate=0.05;
 const monthlyInterestRate = intrestRate /12;
 console.log(monthlyInterestRate);
 
+years=30;
+const periods= years*12;
+console.log(periods);
 
 
 
